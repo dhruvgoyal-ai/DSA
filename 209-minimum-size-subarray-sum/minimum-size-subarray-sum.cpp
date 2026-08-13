@@ -15,7 +15,6 @@ public:
                 low++;
             }
         }
-
         return size == INT_MAX ? 0 : size;
     }
 };
