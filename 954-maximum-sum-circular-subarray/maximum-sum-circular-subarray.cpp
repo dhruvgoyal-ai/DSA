@@ -20,9 +20,7 @@ public:
         if(ans<0){
             return ans;
         }
-        else{
             return max(ans,sum-min_ans);
-        }
 
     }
 };
