@@ -8,14 +8,19 @@ public:
         //     }
         // }
         // return false;
-        set<int>s;
-        for(int x:nums){
-            if(s.count(x)){
+        unordered_set<int> s;
+
+        for (int x : nums) {
+            if (s.count(x)) {
                 return true;
             }
-             s.insert(x);
+
+            s.insert(x);
         }
+
         return false;
-        
     }
+        
+        
+    
 };
