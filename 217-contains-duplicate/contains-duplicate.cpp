@@ -9,7 +9,6 @@ public:
         // }
         // return false;
         unordered_set<int> s;
-
         for (int x : nums) {
             if (s.count(x)) {
                 return true;
